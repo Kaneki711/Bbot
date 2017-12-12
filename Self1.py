@@ -32,229 +32,74 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 ════════════════
-   ║śєʟғ ṭȏɞʏ║ɞȏṭ ṭȏɞʏ║
+COMMAND SELFBOT
 ════════════════
-║> /pяȏṭєċṭ [ċȏṃṃѧṅԀ קяȏṭєċṭ]
-║> /śṭєѧʟ [ċȏṃṃѧṅԀ śṭєѧʟ]
-║> /ɢıғṭ [ċȏṃṃѧṅԀ ɢıғṭ]
-║> /ṭяѧṅśʟѧṭє [ċȏṃṃѧṅԀ ṭяѧṅśʟѧṭє]
-║> /śȏċṃєԀ [ċȏṃṃѧṅԀ śȏċṃєԀ]
-║> /ɞȏṭ [ċȏṃṃѧṅԀ ɞȏṭ]
-║> /śєṭṭıṅɢ [ċȏṃṃѧṅԀ śєṭṭıṅɢ]
-╠═══════════════
-║> ċяєѧṭȏя :
-║=> line://ti/p/~aanjutawan3
-╠═══════════════
-║> ṿєяśıȏṅ :
-║=> 1.7.5ɞєṭѧ
-╠═══════════════
-║> ṭʏקє ɞȏṭ :
-║=> ṭċя
-╠═══════════════
-║> єԀıṭєԀ ɞʏ :
-║=> Aan
 ════════════════
-"""
-
-protectMessage ="""
-║śєʟғ ṭȏɞʏ║ɞȏṭ ṭȏɞʏ║Protect
-════════════════
-║> qr on/oғғ
-║> gυeѕт on/oғғ
-║> мeмвer on/oғғ
-║> groυp on/oғғ
-║> ĸιcĸ on/oғғ
+║> Qr on/off
+║> Guest on/off
+║> Member on/off
+║> Group on/off
+║> Kick on/off
 ║> cancel on/oғғ
-╠═══════════════
-║> ċяєѧṭȏя :
-║=> line://ti/p/~tobyg74
-╠═══════════════
-║> ṿєяśıȏṅ :
-║=> 1.7.5ɞєṭѧ
-╠═══════════════
-║> ṭʏקє ɞȏṭ :
-║=> ṭċя
-╠═══════════════
-║> єԀıṭєԀ ɞʏ :
-║=> Aan
-════════════════
-"""
-
-socmedMessage ="""
-║śєʟғ ṭȏɞʏ║ɞȏṭ ṭȏɞʏ║Socmed
-════════════════
-║> wιĸι [тeхт]
-║> ιg [тeхт]
-║> ιмage [тeхт]
-║> vιdeo [тeхт]
-║> zodιaĸ [тeхт]
-║> yoυтυвe [тeхт]
-║> lιrιĸ [тeхт]
-║> ιdlιne [тeхт]
-║> мυѕιc [тeхт]
-║> тιмe [тιмe]
-║> ѕay [тeхт]
-╠═══════════════
-║> ċяєѧṭȏя :
-║=> line://ti/p/~alrahmantoganteng
-╠═══════════════
-║> ṿєяśıȏṅ :
-║=> 1.7.5ɞєṭѧ
-╠═══════════════
-║> ṭʏקє ɞȏṭ :
-║=> ṭċя
-╠═══════════════
-║> єԀıṭєԀ ɞʏ :
-║=> Aan
-════════════════
-"""
-
-translateMessage ="""
-║śєʟғ ṭȏɞʏ║ɞȏṭ ṭȏɞʏ║Translate
-════════════════
-║> тr-ιd = ιndoneѕιa
-║> тr-мy = мyanмar
+║> wiki [тeхт]
+║> ig [тeхт]
+║> image [тeхт]
+║> video [тeхт]
+║> zodiak [тeхт]
+║> youtube [тeхт]
+║> lirik [тeхт]
+║> idline [тeхт]
+║> music [тeхт]
+║> time [тιмe]
+║> say [тeхт]
+║> tr-id = ιndoneѕιa
+║> tr-my = мyanмar
 ║> тr-en = englιѕн
-║> тr-тн = тнaιland
-║> тr-ja = japaneѕe
-║> тr-мѕ = мalayѕιa
-║> тr-ιт = ιтalιan
-║> тr-тr = тυrĸιѕн
-║> тr-aғ = aғrιĸaanѕ
-║> тr-ѕq = alвanιan
-║> тr-aм = aмнarιc
-║> тr-ar = araвιc
-║> тr-нy = arмenιan
-╠═══════════════
-║> ċяєѧṭȏя :
-║=> line://ti/p/~aanjutawan3
-╠═══════════════
-║> ṿєяśıȏṅ :
-║=> 1.7.5ɞєṭѧ
-╠═══════════════
-║> ṭʏקє ɞȏṭ :
-║=> ṭċя
-╠═══════════════
-║> єԀıṭєԀ ɞʏ :
-║=> Aan
-════════════════
-"""
-
-botMessage ="""
-║śєʟғ ṭȏɞʏ║ɞȏṭ ṭȏɞʏ║Bot
-════════════════
-║> nĸ [naмe]
-║> vĸ [naмe]
-║> nυĸe
-║> lυrĸιng > lυrĸerѕ
-║> тeѕт
-║> reѕpon
+║> tr-th = тнaιland
+║> tr-ja = japaneѕe
+║> tr-ms = мalayѕιa
+║> tr-lt = ιтalιan
+║> tr-tr = тυrĸιѕн
+║> tr-af = aғrιĸaanѕ
+║> tr-sq = alвanιan
+║> tr-am = aмнarιc
+║> tr-ar = araвιc
+║> tr-hy = arмenιan
+║> nk @ [naмe]
+║> vk @ [naмe]
+║> nuke
+║> lurking > lυrĸerѕ
+║> test
+║> respon
 ║> ѕpeed
 ║> glιѕт
 ║> тagall
-║> reѕтarт
+║> restar
 ║> cn [тeхт]
-║> cѕ [тeхт]
-║> мe
-║> craѕн
-╠═══════════════
-║> ċяєѧṭȏя :
-║=> line://ti/p/~tobyg74
-╠═══════════════
-║> ṿєяśıȏṅ :
-║=> 1.7.5ɞєṭѧ
-╠═══════════════
-║> ṭʏקє ɞȏṭ :
-║=> ṭċя
-╠═══════════════
-║> єԀıṭєԀ ɞʏ :
-║=> ṭȏɞʏ
-║=> ғıԀһȏ
-════════════════
-"""
-
-settingMessage ="""
-║śєʟғ ṭȏɞʏ║ɞȏṭ ṭȏɞʏ║Setting
-════════════════
-║> ѕeт
-║> тag on/oғғ
-║> тag2 on/oғғ
-║> aυтolιĸe on/oғғ
-║> add on/oғғ
-║> joιn on/oғғ
-║> ѕнare on/oғғ
-║> coммenт on/oғғ
-║> ĸ on/oғғ
-║> njoιn on/oғғ
-║> nleave on/oғғ
-╠═══════════════
-║> ċяєѧṭȏя :
-║=> line://ti/p/~tobyg74
-╠═══════════════
-║> ṿєяśıȏṅ :
-║=> 1.7.5ɞєṭѧ
-╠═══════════════
-║> ṭʏקє ɞȏṭ :
-║=> ṭċя
-╠═══════════════
-║> єԀıṭєԀ ɞʏ :
-║=> ṭȏɞʏ
-║=> ғıԀһȏ
-════════════════
-"""
-
-giftMessage ="""
-║śєʟғ ṭȏɞʏ║ɞȏṭ ṭȏɞʏ║Gift
-════════════════
-║> gιғт
-║> gιғт 1
-║> gιғт 2
-║> gιғт 3
-╠═══════════════
-║> ċяєѧṭȏя :
-║=> line://ti/p/~tobyg74
-╠═══════════════
-║> ṿєяśıȏṅ :
-║=> 1.7.5ɞєṭѧ
-╠═══════════════
-║> ṭʏקє ɞȏṭ :
-║=> ṭċя
-╠═══════════════
-║> єԀıṭєԀ ɞʏ :
-║=> ṭȏɞʏ
-║=> ғıԀһȏ
-════════════════
-"""
-
-stealMessage ="""
-║śєʟғ ṭȏɞʏ║ɞȏṭ ṭȏɞʏ║Steal
-════════════════
-║> geтnaмe @
-║> geтвιo @
-║> geтιnғo @
-║> geтpp @
-║> geтcover @
-║> geтмιd @
-║> geтgroυp
-║> ѕeтιмage [lιnĸ]
-║> papιмage
-║> ѕeтvιdeo [lιnĸ]
-║> papvιdeo
-║> мycopy @
-║> мyвacĸυp
-╠═══════════════
-║> ċяєѧṭȏя :
-║=> line://ti/p/~tobyg74
-╠═══════════════
-║> ṿєяśıȏṅ :
-║=> 1.7.5ɞєṭѧ
-╠═══════════════
-║> ṭʏקє ɞȏṭ :
-║=> ṭċя
-╠═══════════════
-║> єԀıṭєԀ ɞʏ :
-║=> ṭȏɞʏ
-║=> ғıԀһȏ
+║> cs [тeхт]
+║> me
+║> crash
+║> set
+║> tag on/off
+║> tag2 on/off
+║> autolike on/off
+║> add on/off
+║> join on/off
+║> share on/off
+║> comment on/off
+║> k on/off
+║> njoin on/off
+║> nleave on/off
+║> gift
+║> Mycopy
+║> Mybackup
+║> getname @ [name]
+║> getbio @ [name]
+║> getinfo @ [name]
+║> getpp @ [name]
+║> getcover @ name]
+║> getmid @ [name]
+║> getgroup @ [name]
 ════════════════
 """
 KAC=[cl,ki,kk,kc,kl]
@@ -265,8 +110,8 @@ Cmid = kc.getProfile().mid
 Dmid = kl.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["ua7fb5762d5066629323d113e1266e8ca","u76afd5ee45544818f285ca2ea21eb242","u3a4ffa2e5bf130bdc4c89b0db4f772a3","u9e89034ee9d93f92a350bc813bdcc702"]
-creator=["ua7fb5762d5066629323d113e1266e8ca","u76afd5ee45544818f285ca2ea21eb242","u3a4ffa2e5bf130bdc4c89b0db4f772a3","u9e89034ee9d93f92a350bc813bdcc702"]
+admin=["YOUR_MID_HERE"]
+creator=["YOUR_MID-HERE"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -274,9 +119,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"""Owner : line://ti/p/~tobyg74\n\n<=<[OpenJasaBot]>=>\n\n> SelfBotProtect\n>BotProtectTora 5 bot\n\nSelf Dan Bot DiPisah\n#KaloMinatAddAja!!\nhttps://line.me/R/ti/p/%40qua3481v""",
+    'message':"""OPEN PEMBUATAN SELFBOT/BOT PROTECTED MINAT PM line.me/ti/p/~ebisuindo""",
     "lang":"JP",
-    "comment":"""Owner : line://ti/p/~tobyg74\n\n<=<[OpenJasaSelfBot]>=>\n\n> SelfBotProtect\n> BotProtectTora\n#KaloMinatAddAja\nhttps://line.me/R/ti/p/%40qua3481v""",
+    "comment":"""OPEN PEMBUATAN SELFBOT/BOT PROTECTED MINAT PM line.me/ti/p/~ebisuindo""",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
